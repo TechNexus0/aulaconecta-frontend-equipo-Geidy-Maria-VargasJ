@@ -1,1 +1,21 @@
+Registro de comandos
 
+git commit
+¿Qué nodo nuevo apareció y dónde quedó apuntando la rama?**
+
+Al ejecutar `git commit` apareció un nuevo nodo (commit) en el historial. La rama activa se movió automáticamente para apuntar a ese nuevo commit.
+
+git branch
+¿Qué se creó y sobre qué commit quedó ubicado?**
+
+Se creó una nueva rama que apuntaba al mismo commit donde se encontraba la rama actual en ese momento.
+
+git checkout
+¿Qué cambió al moverse a otra rama?**
+
+La rama activa cambió a la rama seleccionada y el HEAD comenzó a apuntar a ella. Los archivos mostrados correspondieron al último commit de esa rama.
+
+git merge
+¿Qué historias de trabajo quedaron integradas?**
+
+Se unieron los cambios realizados en dos ramas diferentes, conservando el historial de ambas y dejando todos los commits disponibles en una sola rama.
