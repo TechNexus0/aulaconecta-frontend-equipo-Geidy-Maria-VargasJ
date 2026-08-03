@@ -1,0 +1,65 @@
+Comprobación conceptual
+
+14. ¿Qué puede hacer Git aunque GitHub no exista?
+
+Git puede controlar y guardar los cambios de un proyecto directamente en nuestro computador. Podemos crear commits, ramas y revisar el historial sin necesitar GitHub.
+
+15. ¿Por qué una rama reduce el riesgo de dañar main?
+
+Porque permite trabajar en cambios nuevos sin modificar directamente la rama principal. Así podemos probar cosas y corregir errores antes de unirlas a main.
+
+16. ¿Qué diferencia existe entre guardar un archivo y crear un commit?
+
+Guardar un archivo solo conserva los cambios que hicimos. Un commit guarda una versión de esos cambios en Git y permite tener un historial de lo que se ha realizado.
+
+17. ¿Por qué un pull request no es lo mismo que un merge?
+
+Un pull request es una solicitud para revisar unos cambios antes de integrarlos. El merge es cuando esos cambios se unen finalmente con otra rama.
+
+18. ¿Qué evidencia permite saber quién cambió algo y por qué?
+
+Los commits permiten saber quién hizo un cambio, cuándo lo hizo y qué explicó sobre ese cambio mediante el mensaje del commit.
+
+Reto rápido de secuencia
+
+1. Revisar
+
+Primero se revisa el estado del proyecto para saber qué cambios existen y evitar trabajar sobre algo que no conocemos.
+
+Riesgo que evita: perder cambios o trabajar sobre una versión incorrecta.
+
+2. Crear repositorio
+
+Se crea el repositorio para tener un lugar donde organizar y controlar el proyecto.
+
+Riesgo que evita: tener el proyecto desorganizado o no contar con un lugar central para guardar su historial.
+
+3. Crear rama
+
+Se crea una rama para trabajar en una función o cambio sin modificar directamente la rama principal.
+
+Riesgo que evita: dañar o alterar main mientras se está desarrollando.
+
+4. Hacer commits
+
+Se realizan commits para guardar los cambios importantes y crear un historial del trabajo.
+
+Riesgo que evita: perder el progreso y no poder identificar fácilmente qué cambios se hicieron.
+
+5. Abrir pull request
+
+Se abre un pull request para solicitar que los cambios sean revisados antes de integrarlos.
+
+Riesgo que evita: unir cambios con errores sin haberlos revisado.
+
+6. Corregir observaciones
+
+Se revisan los comentarios recibidos y se realizan las correcciones necesarias.
+
+Riesgo que evita: integrar código que todavía tiene errores o problemas señalados durante la revisión.
+
+7. Fusionar
+
+Finalmente se fusiona la rama con la rama principal cuando los cambios ya fueron revisados y corregidos.
+
+Riesgo que evita: incorporar cambios incompletos o que todavía necesitan correcciones.
