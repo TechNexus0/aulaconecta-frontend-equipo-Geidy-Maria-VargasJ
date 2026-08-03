@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia Armonía</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="menu">
+    <span class="logo">Armonía</span>
+    <div class="nav-links">
+        <a href="#">Inicio</a>
+        <a href="#instrumentos">Instrumentos</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+</nav>
+
+<div class="banner">
+    <h1>Academia de Música <em>Armonía</em></h1>
+    <p>Aprende con los mejores músicos de Colombia</p>
+    <p>Bogotá, Colombia · info@academiarmonia.co · 315 987 6543</p>
+</div>
+
+<div class="seccion">
+    <h2 id="instrumentos">Instrumentos</h2>
+
+    <div class="filtros">
+        <button class="filtro activo" data-categoria="todos">Todos</button>
+        <button class="filtro" data-categoria="cuerdas">Cuerdas</button>
+        <button class="filtro" data-categoria="viento">Viento</button>
+        <button class="filtro" data-categoria="teclas">Teclas</button>
+        <button class="filtro" data-categoria="percusion">Percusión</button>
+    </div>
+
+    <div class="grid-instrumentos">
+
+        <div class="card" data-categoria="cuerdas">
+            <div class="card-img">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRuB7eM98E-nLA3vqyZ9bpZZ-xRUreO4CgHYcb5pzNwA&s=10" alt="Guitarra">
+              </div>
+            <div class="info">
+                <p class="nombre">Guitarra</p>
+                <p class="detalle">Clásica, acústica y eléctrica. Todos los niveles.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="cuerdas">
+           <div class="card-img">
+         <img src="https://ortizo.com.co/cdn/shop/files/CV40236_f97f386b-1951-455b-a21d-f2c7e186277f.jpg?v=1768863223&width=480" alt="Violín">
+          </div>
+            <div class="info">
+                <p class="nombre">Violín</p>
+                <p class="detalle">Técnica clásica. Nivel intermedio y avanzado.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="cuerdas">
+            <div class="card-img">
+           <img src="https://edbstatic.com/5468/fretless.png" alt="Bajo">
+              </div>
+            <div class="info">
+                <p class="nombre">Bajo</p>
+                <p class="detalle">Jazz, rock y música tropical. Todos los niveles.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="viento">
+            <div class="card-img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImzyqb2moB6e_b7Qt5A8hVmQX9r1ccWo5iXR0OJrObVKj3Pp381E1fZw&s=10" alt="Saxofón">
+            </div>
+            <div class="info">
+                <p class="nombre">Saxofón</p>
+                <p class="detalle">Jazz, blues y música clásica. Todos los niveles.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="viento">
+            <div class="card-img">
+          <img src="https://belmusic.com.co/wp-content/uploads/2018/05/Trompeta-Yamaha-YTR-2330.jpg" alt="Trompeta">
+            </div>
+            <div class="info">
+                <p class="nombre">Trompeta</p>
+                <p class="detalle">Ideal para bandas y orquestas. Principiante - Avanzado.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="viento">
+            <div class="card-img">
+          <img src="https://yamaha.vtexassets.com/arquivos/ids/156103/YRS230000000-1.jpg?v=637780493323700000" alt="Flauta">
+           </div>
+            <div class="info">
+                <p class="nombre">Flauta</p>
+                <p class="detalle">Técnica de respiración y digitación. Principiante.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="teclas">
+            <div class="card-img">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBTjzlh2fNBtvm_slseQfyzG3Sc_CYI4LtAdi5F7H3A&s=10" alt="Piano">
+         </div>
+            <div class="info">
+                <p class="nombre">Piano</p>
+                <p class="detalle">Clásico, jazz y contemporáneo. Todos los niveles.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="percusion">
+            <div class="card-img">
+             <img src="https://www.musicca.com/files/scripts/drums/static/media/drum-kit-standard.eb6cdcf0e2d2b6c360fb.png" alt="Batería">
+              </div>
+            <div class="info">
+                <p class="nombre">Batería</p>
+                <p class="detalle">Rock, jazz y fusión latina. Todos los niveles.</p>
+            </div>
+        </div>
+
+        <div class="card" data-categoria="percusion">
+            <div class="card-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDX_rU6k5RieccvlCju8UeX2w9nXSvXcYaH5wfqD6aLbykB90MJJU-b1g&s=10" alt="Cajón">
+             </div>
+            <div class="info">
+                <p class="nombre">Cajón</p>
+                <p class="detalle">Percusión criolla y flamenca. Todos los niveles.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="seccion gris">
+    <h2 id="profesores">Profesores</h2>
+    <div class="grid-profesores">
+
+        <div class="profe-card">
+            <img src="https://img.magnific.com/foto-gratis/hombre-morena-sobre-fondo-blanco-aislado_1368-4404.jpg?semt=ais_hybrid&w=740&q=80" alt="Carlos">
+            <div class="info">
+                <p class="nombre">Carlos Mendoza</p>
+                <p class="especialidad">Guitarra & Bajo</p>
+                <p class="detalle">15 años de experiencia. Graduado del Conservatorio de Bogotá.</p>
+            </div>
+        </div>
+
+        <div class="profe-card">
+            <img src="https://img.magnific.com/foto-gratis/estilo-vida-emociones-gente-concepto-casual-confiado-agradable-sonriente-mujer-asiatica-brazos-cruzados-pecho-seguro-listo-ayudar-escuchando-companeros-trabajo-participando-conversacion_1258-59335.jpg?semt=ais_hybrid&w=740&q=80" alt="Sofía">
+            <div class="info">
+                <p class="nombre">Sofía Ramírez</p>
+                <p class="especialidad">Piano & Teoría Musical</p>
+                <p class="detalle">Pianista clásica con maestría en París. +200 estudiantes formados.</p>
+            </div>
+        </div>
+
+        <div class="profe-card">
+            <img src="https://media.istockphoto.com/id/1335941248/es/foto/foto-de-un-joven-guapo-de-pie-sobre-un-fondo-gris.jpg?s=612x612&w=0&k=20&c=UK8BGVVCSmHen0sJAgxoZ6sBLrs0ld4TuCwczZZ89AY=" alt="Andrés">
+            <div class="info">
+                <p class="nombre">Andrés Torres</p>
+                <p class="especialidad">Saxofón & Vientos</p>
+                <p class="detalle">Músico de jazz con trayectoria en festivales nacionales.</p>
+            </div>
+        </div>
+
+        <div class="profe-card">
+            <img src="https://img.magnific.com/foto-gratis/mujer-joven-hermosa-sueter-rosa-calido-aspecto-natural-sonriente-retrato-aislado-cabello-largo_285396-896.jpg?semt=ais_hybrid&w=740&q=80" alt="Valentina">
+            <div class="info">
+                <p class="nombre">Valentina Cruz</p>
+                <p class="especialidad">Batería & Percusión</p>
+                <p class="detalle">Rítmica latinoamericana. Giras por toda Sudamérica.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="seccion" id="contacto">
+    <h2>Contáctanos</h2>
+    <p class="sub">¿Interesado en clases? Escríbenos y te ayudamos</p>
+
+    <form class="form-contacto">
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo" required>
+        <textarea placeholder="Tu mensaje..." rows="4" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+    </form>
+</div>
+
+<footer>
+    <p>Academia Armonía · Bogotá, Colombia · © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
