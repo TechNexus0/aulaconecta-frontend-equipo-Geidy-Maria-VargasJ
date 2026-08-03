@@ -1,8 +1,8 @@
 # aulaconecta-frontend-equipo-Geidy-Maria-VargasJ
 Organiza, optimiza y administra tu espacio de trabajo con tus colaboradores
 
-El problema que encontrado es la falta de organización y comunicación entre los diferentes colaboradores de Aula Conecta.
-Nuestro objetivo es crear un espacio de trabajo que muestre el proceso del proyecto.
+AulaConecta presenta dificultades para organizar y centralizar la información del proyecto, lo que genera problemas de comunicación y seguimiento entre los colaboradores.
+Crear un front-end que centralice la información del proyecto y facilite la colaboración entre los integrantes del equipo.
 
 Se creará un Index 
 
